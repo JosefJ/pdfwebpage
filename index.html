@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Title</title>
+	<meta name="author" content="Josef Jelacic <" />
+	<meta name="description" content="" />
+	<meta name="keywords"  content="" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+	<link rel="stylesheet" href="css/pdfMagic.css"/>
+
+	<script src="http://mozilla.github.io/pdf.js/build/pdf.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+</head>
+<body>
+<!-- HIDES the slides if in portrait mode! Notify about landscape use only -->
+<div id="turn_screen">Please display as landscape.</div>
+
+<!-- PDF wrapper - your slides will be shown here -->
+<div id="fullpage">
+
+	<!-- canvas for rendering / hidden as default -->
+	<canvas id="the-canvas"></canvas>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/pdfMagic.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+
+</html>
